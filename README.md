@@ -1,4 +1,4 @@
-# Welcome to Spring 2023 CSCI1411: Script Programming Repository
+# Welcome to Fall 2023 CSCI1411: Script Programming Repository
 
 Throughout the semester, assignment and lab starter code will be posted inside this repository that you will be able to pull inside of your individual VMs.
 
