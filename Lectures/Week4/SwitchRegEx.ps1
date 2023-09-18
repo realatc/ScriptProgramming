@@ -4,11 +4,11 @@
     switch -regex ($msg)
     {
         '\d\d\d-\d\d-\d\d\d\d' {
-            Write-Host 'message may contain a SSN' -BackgroundColor Yellow
+            Write-Host 'message may contain a SSN' -ForegroundColor Yellow
             Write-Host $msg
         }
         '\d\d\d\d-\d\d\d\d-\d\d\d\d-\d\d\d\d' {
-            Write-Host 'message may contain a credit card number' -BackgroundColor Blue
+            Write-Host 'message may contain a credit card number' -ForegroundColor Blue
             Write-Host $msg
         }
         '\d\d\d-\d\d\d-\d\d\d\d' {
