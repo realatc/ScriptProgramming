@@ -13,7 +13,5 @@ print('The sum of num1 and num2 is sum')
 
 #Print the following string as uppercase
 text1 = "how can we uppercase this string in python?"
-print(text1.lower())
-
-print(10.5 / 2)
-print(10.5 // 2)
+print(text1.upper())
+print(text1)

@@ -3,7 +3,7 @@
 # of 150 miles,what is the avg. speed? 
 # Speed = distance / time
 
-distance = 150
+distance = 200
 time = 3
 
 avgSpeed = distance/time

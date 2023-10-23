@@ -1,14 +1,13 @@
 #First Function in Python
 
 def hello():
-    print("Hello")
+    print("hello")
 
 x = hello()
 print(x)
 
-
 def hello2(name):
-    print("Hello,",name)
+    print("Hello", name)
     return name
 
 hello2("Class")

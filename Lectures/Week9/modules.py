@@ -8,21 +8,22 @@ import os
 """
 Demonstration use of modules
 """
-
 '''
+
 # Hashlib Example
 pw = input("Enter your password: ")
 
 # Use imported module one way
-password = hashlib.md5(pw.encode('utf-8'))
+#password = hashlib.md5(pw.encode('utf-8'))
+#print(password)
 
 # Here is another way you would see if (does the same thing as previous statement)
-#password = hashmd5(pw.encode('utf-8'))
+password = hashmd5(pw.encode('utf-8'))
 
-#print(type(password))
-#print(password)
+print(type(password))
+print(password)
 hashedPass = password.hexdigest() #Converts a hashed object to a string
-#print(type(hashedPass))
+print(type(hashedPass))
 
 print("Password HASH: ",hashedPass)
 
@@ -38,17 +39,17 @@ if(hashedPass == hashedPass2):
     print("Passwords are the same!")
 else:
     print("Passwords do not match")
-
-
-
 '''
 
+
+
+
 # os library example
-print(dir(os))
+#print(dir(os))
 print(os.listdir("/home/kali"))
 #print(os.listdir("/"))
 
-whereami = os.listdir("/")
-print(whereami[0:5])
+#whereami = os.listdir("/")
+#print(whereami[0:5])
 #print(type(whereami))
 
