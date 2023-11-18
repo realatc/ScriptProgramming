@@ -82,7 +82,8 @@ print("*************************Question  3a/3b *************************")
 
 #Uncomment lines below when ready to test your solution
 # Optional: Verbose Mode, change the value of v to True or False to see traffic blocked.
-
+#v = False
+#simulateTraffic("4",cs1411FW,v)
 
 
 # 5. Great Job! The firewall is working as intended but would be better to "pull" a list of 
