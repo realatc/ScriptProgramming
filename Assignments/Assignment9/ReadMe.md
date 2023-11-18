@@ -6,7 +6,7 @@
 ## Goal
 Your final Python scripting assignment tests your knowledge working with Objects. Two
 object classes called firewall and packet have been provided. Your task is to complete
-the 5 questions in a9.py. Question 5 requires a small modification to firewall.py to complete successfully.
+the 5 questions in a9.py. Question 4 requires a small modification to firewall.py to complete successfully.
 
 You will need to read through and understand how the objects are constructed and implemented in order to utilize them. 
 
