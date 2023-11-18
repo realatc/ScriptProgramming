@@ -1,4 +1,3 @@
-from lzma import FILTER_LZMA2
 import firewall as fw
 import packet as p
 import requests
